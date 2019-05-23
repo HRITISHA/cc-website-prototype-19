@@ -1,0 +1,29 @@
+.navbar-expand-lg .navbar-collapse {
+display: flex!important;
+justify-content: space-around;
+flex-basis: auto;
+}
+.column {
+float: left;
+
+ /* Should be removed. Only for demonstration */
+}
+
+.left {
+width: 20%;
+}
+
+.right {
+
+width: 80%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+#head{
+	margin-top: 20px auto;
+}
